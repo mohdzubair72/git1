@@ -1,0 +1,4 @@
+apiversion:v1
+kinf:pod
+metadata:
+  spec:

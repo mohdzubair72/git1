@@ -1,0 +1,7 @@
+something
+apiversion:v1
+kind:service
+metadata:
+  spec:
+
+    new data:

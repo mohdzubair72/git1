@@ -2,4 +2,8 @@
 	</Project>
 <New Addition to the project>
 	<A new user added this line>
+<<<<<<< HEAD
 		A new commit done from locaL
+=======
+A new commit done from remote
+>>>>>>> 9e2dcb933c54dab9b08a9abf231b0f0fd1d29d1f

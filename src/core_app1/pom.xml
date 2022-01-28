@@ -1,45 +1,75 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.vyex</groupId>
-  <artifactId>core_app1</artifactId>
-  <version>y</version>
-  <packaging>jar</packaging>
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <name>core_app1</name>
-  <url>http://maven.apache.org</url>
+<modelVersion>4.0.0</modelVersion>
 
-   <properties>
-   <maven.compiler.source>6</maven.compiler.source>
-   <maven.compiler.target>1.6</maven.compiler.target>
- </properties>
+<groupId>com.vyex</groupId>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+<artifactId>core_app1</artifactId>
 
-   <distributionManagement>
-    <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
-      <layout>default</layout>
-    </repository>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
-      <layout></layout>
-    </snapshotRepository>
-    
-  </distributionManagement>
+<version>1.0-SNAPSHOT</version>
+
+<packaging>jar</packaging>
+
+<name>core_app1</name>
+
+<url>http://maven.apache.org</url>
+
+<properties>
+
+<maven.compiler.source>1.8</maven.compiler.source>
+
+<maven.compiler.target>1.8</maven.compiler.target>
+
+</properties>
+
+<dependencies>
+
+<dependency>
+
+<groupId>junit</groupId>
+
+<artifactId>junit</artifactId>
+
+<version>3.8.1</version>
+
+<scope>test</scope>
+
+</dependency>
+
+</dependencies>
+
+<distributionManagement>
+
+<repository>
+
+<uniqueVersion>false</uniqueVersion>
+
+<id>corp1</id>
+
+<name>Corporate Repository</name>
+
+<url>scp://repo/maven2</url>
+
+<layout>default</layout>
+
+</repository>
+
+<snapshotRepository>
+
+<uniqueVersion>true</uniqueVersion>
+
+<id>propSnap</id>
+
+<name>Propellors Snapshots</name>
+
+<url>sftp://propellers.net/maven</url>
+
+<layout></layout>
+
+</snapshotRepository>
+
+</distributionManagement>
 
 </project>
